@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WHA.js ~ Sprite Test</title>
+</head>
+<body>
+
+
+
+<script src="src/WHA.js" type="text/javascript"></script>
+<script src="src/Sprite.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+
+    var div = document.createElement("div");
+    div.style.width = "100px";
+    div.style.height = "100px";
+    div.style.position = "absolute";
+    div.style.backgroundColor = "#ff9900";
+
+    document.body.appendChild( div );
+
+    var sprite = new WHA.Sprite( div );
+
+    sprite.x = 100;
+    sprite.x = "12";
+
+</script>
+
+</body>
+</html>
