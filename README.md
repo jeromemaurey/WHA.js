@@ -1,4 +1,4 @@
 WHA.js
 ======
 
-An Utilitarian &amp; Educational Javascript library
+# An Utilitarian &amp; Educational Javascript library.
